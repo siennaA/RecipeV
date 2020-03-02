@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Contents of [Recipe] Table in [Recipes] DB-->
+<Recipes>
+  <Recipe>
+    <RecipeID>1</RecipeID>
+    <Title>Mexican Pozole</Title>
+    <RecipeType>Meal Item   </RecipeType>
+    <ServingSize>1 cup
+Each serving provides:
+Calories:  253
+Total fat:  10 g
+Saturated fat:  3 g
+Cholesterol:  52 mg
+Sodium:  425 mg
+Calcium:  28 mg
+Iron:  3 mg</ServingSize>
+    <Yield>10 servings    </Yield>
+    <Directions>1.  In a large pot, heat oil.  Saute beef. 
+2.  Add onion, garlic, salt, pepper, cilantro, and enough
+water to cover the meat.  Cover pot and cook over low heat
+until meat is tender.
+3.  Add tomatoes and tomato paste.  Continue cooking for
+about 20 minutes.
+4.  Add hominy and continue cooking another 15 minutes,
+stirring occasionally, over low heat.  If too thick, add
+water for desired consistency.</Directions>
+    <Comment>Only a small amount of oil is needed to saute meat. Option: Skinless, 
+boneless chicken breasts may be used instead of beef cubes.</Comment>
+  </Recipe>
+  <Recipe>
+    <RecipeID>2</RecipeID>
+    <Title>Stir-Fried Beef</Title>
+    <RecipeType>Meal Item   </RecipeType>
+    <ServingSize>1 1/4 cup
+Each serving with potatoes 
+and rice provides:
+Calories:  549
+Total fat:  8 g
+Saturated fat:  2 g
+Cholesterol:  56 mg
+Sodium:  288 mg
+Calcium:  55 mg
+Iron:  5 mg</ServingSize>
+    <Yield>6 servings     </Yield>
+    <Directions>1.  In a large skillet, heat oil and saute garlic until
+garlic is golden.  Add steak, vinegar, salt, and pepper.
+2.  Cook for 6 minutes, stirring beef until brown.
+3.  Add onion and tomato.  Cook until onion is transparent. 
+4.	Serve with boiled potatoes and white rice.</Directions>
+    <Comment>Trim fat from steak and cut into small, thin pieces.</Comment>
+  </Recipe>
+  <Recipe>
+    <RecipeID>3</RecipeID>
+    <Title>Chicken Stew</Title>
+    <RecipeType>Meal Item   </RecipeType>
+    <ServingSize>1 piece of chicken
+Each serving provides:
+Calories:  206
+Total fat:  6 g
+Saturated fat:  2 g
+Cholesterol:  75 mg
+Sodium:  489 mg
+Calcium:  32 mg
+Iron:  2 mg</ServingSize>
+    <Yield>8 servings     </Yield>
+    <Directions>1.	In a large skillet, combine chicken, water, garlic, onion,
+salt, pepper, tomatoes, and parsley.  Tightly cover and cook
+over low heat for 25 minutes.
+2.  Add celery, potatoes, carrots, and bay leaves and
+continue to cook for 15 more minutes or until chicken and 
+vegetables are tender.  Remove bay leaves before serving.</Directions>
+    <Comment>Remove the skin from the chicken and any extra fat.</Comment>
+  </Recipe>
+  <Recipe>
+    <RecipeID>4</RecipeID>
+    <Title>Grilled Chicken With Green Chile Sauce</Title>
+    <RecipeType>Meal Item   </RecipeType>
+    <ServingSize>1 breast
+Each serving provides:
+Calories:  192
+Total fat:  5 g
+Saturated fat:  2 g
+Cholesterol:  71 mg
+Sodium:  220 mg
+Calcium:  53 mg
+Iron:  2 mg</ServingSize>
+    <Yield>4 servings     </Yield>
+    <Directions>1.	Combine the oil, juice from one lime, oregano, and black
+pepper in a shallow glass baking dish.  Stir.  Place the
+chicken breasts in the baking dish and turn to coat each
+side.  Cover the dish and refrigerate overnight.  Turn the
+chicken periodically to marinate chicken on both sides.
+2.  Put water, tomatillos, and onion into a saucepan.  Bring
+to a gentle boil and cook uncovered for 10 minutes or until
+the tomatillos are tender.  In a blender, place the cooked
+onion, tomatillos, and any remaining water.  Add the garlic,
+peppers, cilantro, salt, and the remaining lime juice. 
+Blend until all the ingredients are smooth.  Place the sauce
+in a bowl and refrigerate.
+3.  Place the chicken breasts on a hot grill and cook until
+done.  Place the chicken on a serving platter.
+4.  Spoon a tablespoon of low fat sour cream over each
+chicken breast.  Pour the sauce over the sour cream.</Directions>
+    <Comment>Marinate meats to make them tender without adding a lot of
+fat.</Comment>
+  </Recipe>
+  <Recipe>
+    <RecipeID>5</RecipeID>
+    <Title>Caribbean Pink Beans</Title>
+    <RecipeType>Meal Item   </RecipeType>
+    <ServingSize>1/2 cup
+Each serving provides:
+Calories:  133
+Total fat:  Less than 1 g
+Saturated fat:  Less than 1 g
+Cholesterol:  0 mg
+Sodium:  205 mg
+Calcium:  39 mg
+Iron:  2 mg</ServingSize>
+    <Yield>16 servings    </Yield>
+    <Directions>1.  Rinse and pick through the beans.  Put the beans in a
+large pot and add 10 cups of water.  Place the pot in the
+refrigerator and allow the beans to soak overnight.
+2.  Cook the beans until they are soft.  Add more water as
+needed while the beans are cooking.
+3.  Add the plantains, tomato, pepper, onion, garlic, and
+salt.  Continue cooking at low heat until the plantains are
+soft.
+4.	Serve with rice (optional).</Directions>
+    <Comment>Use no lard or other fat to make beans.</Comment>
+  </Recipe>
+  <Recipe>
+    <RecipeID>6</RecipeID>
+    <Title>Chayotes Stuffed With Cheese</Title>
+    <RecipeType>Meal Item   </RecipeType>
+    <ServingSize>2 chayote halves
+Each serving provides:
+Calories:  129
+Total fat:  6 g
+Saturated fat:  2 g
+Cholesterol:  11 mg
+Sodium:  276 mg
+Calcium:  163 mg
+Iron:  1 mg</ServingSize>
+    <Yield>6 servings     </Yield>
+    <Directions>1.  Wash chayotes and bring to a boil in water.  Cover and
+boil at moderate heat for about 1 hour or until fork-tender.
+2.  Preheat oven to 350 degrees.
+3.  Drain chayotes, remove cores and fibrous part under
+cores.  Scoop out pulp, being careful not to break shells. 
+Place shells on cookie sheet.
+4.  Immediately mash pulp and mix with cheese, salt, and
+margarine.
+5.  Stuff shells with the mixture.  Sprinkle with bread
+crumbs.
+6.  Bake for 30 minutes.</Directions>
+    <Comment>This heart-healthy dish uses low fat cheese and a small
+amount of margarine.</Comment>
+  </Recipe>
+  <Recipe>
+    <RecipeID>7</RecipeID>
+    <Title>Home-made Sour Cream</Title>
+    <RecipeType>Dessert     </RecipeType>
+    <ServingSize>2 1/2 tablespoons
+Each serving provides:
+Calories:  27
+Total fat:  Less than 1 g
+Saturated fat:  Less than 1 g
+Cholesterol:  2 mg
+Sodium:  117 mg
+Calcium:  24 mg
+Iron:  Less than 1 mg</ServingSize>
+    <Yield>8 servings     </Yield>
+    <Directions>1.  Place all ingredients in a blender, and combine on
+medium-high speed until smooth and creamy.
+2.	Serve with Tropical Fruit Compote or any 
+recipe that uses sour cream.</Directions>
+    <Comment>Try this instead of sour cream on beans, vegetables, fruit,
+and tortillas.</Comment>
+  </Recipe>
+  <Recipe>
+    <RecipeID>8</RecipeID>
+    <Title>Rice Pudding</Title>
+    <RecipeType>Dessert     </RecipeType>
+    <ServingSize>1/2 cup
+Each serving provides:
+Calories:  372
+Total fat:  Less than 1 g
+Saturated fat:  Less than 1 g
+Cholesterol:  3 mg
+Sodium:  366 mg
+Calcium:  255 mg
+Iron:  2 mg</ServingSize>
+    <Yield>5 servings     </Yield>
+    <Directions>1.  Put the water and cinnamon sticks into a medium
+saucepan.  Bring to a boil.
+2.  Stir in rice.  Cook on low heat for 30 minutes until
+rice is soft and water has evaporated.
+3.  Add skim milk, sugar, and salt.  Cook for another 15
+minutes until it thickens.</Directions>
+    <Comment>Use skim milk instead of whole milk to reduce fat and
+calories.</Comment>
+  </Recipe>
+  <Recipe>
+    <RecipeID>9</RecipeID>
+    <Title>Tropical Fruit Compote</Title>
+    <RecipeType>Dessert     </RecipeType>
+    <Yield>6 servings     </Yield>
+    <Directions>1.  In a saucepan combine 3/4 cup of water with the sugar,
+lemon juice, and lemon peel (and rum or vanilla extract if
+desired).  Bring to a boil, then reduce the heat and add the
+fruit.  Cook at a very low heat for 5 minutes.
+2.  Pour the syrup in a cup.  Remove the lemon rind and cool
+the cooked fruit for 2 hours.
+3.  To serve the compote, arrange the fruit in a serving
+dish and pour a few teaspoons of syrup over the fruit. 
+Garnish with mint leaves.
+4.	Serve with Home-made Sour Cream</Directions>
+    <Comment>Fresh or cooked fruits make a great low-calorie dessert.</Comment>
+  </Recipe>
+  <Recipe>
+    <RecipeID>10</RecipeID>
+    <Title>Oyster Rockefeller Soup</Title>
+    <RecipeType>Meal Item   </RecipeType>
+    <ServingSize>8 oz.</ServingSize>
+    <Yield>10 servings    </Yield>
+    <Directions>
+      Saute onion in a little butter until translucent. Add spinach and
+      season with salt &amp; generous amount of pepper. Sweat for three minutes
+      until spinach is wilted and then deglaze with Ouzo. Reduce until
+      almost dry and then add heavy cream and clam juice. Simmer for ten
+      minutes and then blend. Coat oysters with panko and fry until crispy.
+      Saute prosciutto (how much depends on how much you like it) until
+      crispy and add to soup along with fried oysters.
+    </Directions>
+  </Recipe>
+  <Recipe>
+    <RecipeID>11</RecipeID>
+    <Title>Shake-It-Up Chicken Nuggets</Title>
+    <RecipeType>Meal Item   </RecipeType>
+    <ServingSize>4 nuggets</ServingSize>
+    <Yield>4 servings     </Yield>
+    <Directions>1. Preheat oven to 450 degrees F.
+2. Measure stuffing mix into resealable plastic bag. Seal bag and
+place on flat surface. Crush crumbs by rolling and pressing rolling
+pin over bag.
+3. Open bag and add Parmesan cheese. Reseal bag and shake to mix
+thoroughly.
+4. Melt margarine (see Cook's Note)
+5. Place melted margarine, buttermilk, and pepper in medium shallow
+bowl. Stir well with spoon. Set aside.
+6. Rinse chicken breasts and pat dry with paper towels.
+7. Place chicken breasts on cutting board. Cut chicken with small,
+sharp knife into 16 chunks of the same size. (Each chicken breast
+should give you 8 chunks or pieces.)
+8. Dip each chicken chunk into buttermilk mixture, covering all sides.
+Let extra buttermilk mixture drip off. Place 3 dipped chunks at a time
+into bag of crumbs. Seal bag tightly and shake until chicken pieces
+are evenly coated with crumbs.
+9. Place coated nuggets on an ungreased baking sheet. Repeat with
+remaining chicken chunks.
+10. Place baking sheet in oven. Bake nuggets 4 minutes.
+11. With oven mitts, remove pan from oven. Using tongs, turn over each
+nugget.
+12. Return to oven and bake 4 to 5 minutes, or until medium golden
+brown.
+13. With oven mitts, remove pan from oven. Using tongs, remove nuggets
+to platter or plates. Serve nuggets immediately. Place a small bowl of
+your favorite dipping sauce nearby, if you like.
+
+Cook's Note
+
+You can use the stovetop or the microwave to melt margarine. If you
+choose a stick margarine, it can easily be measured by looking at the
+tablespoon markings on the wrapper and cutting off the amount you
+need. Each stick equals 8 tablespoons. To melt the margarine, follow
+these easy steps:
+
+Stovetop
+Place margarine in small saucepan.
+Place saucepan on burner.
+Turn heat to low.
+Heat until margarine melts, stirring occasionally.
+
+Microwave
+Place margarine in small microwave-safe bowl.
+Cover with waxed paper.
+Microwave on HIGH (100 % power) 30 to 45 seconds for 1 tablespoon, or
+45 to 60 seconds for 1/4 cup.</Directions>
+    <Comment>Chicken nuggets are usually deep-fried in hot oil to give them a
+crusty coating. But all that oil makes the nuggets greasy. In our
+recipe, the chicken is tossed in a bag with seasoned stuffing mix and
+grated Parmesan cheese. It is then baked in the oven. These
+"oven-fried" nuggets are crisp and golden. But, they don't have that
+extra fat you get from deep-frying.</Comment>
+  </Recipe>
+  <Recipe>
+    <RecipeID>12</RecipeID>
+    <Title>Slumber Party French Toast</Title>
+    <RecipeType>Meal Item   </RecipeType>
+    <ServingSize>1 slice</ServingSize>
+    <Yield>6 servings     </Yield>
+    <Directions>1. Place margarine in baking pan or heat-proof 13-by-9 baking dish. Place pan
+on burner. Turn heat to low. Heat margarine until melted.
+2. Place brown sugar in small bowl. With fork, stir in cinnamon.
+Sprinkle mixture evenly over melted margarine in baking pan or dish.
+3. Combine egg substitute and milk in glass pie plate. Mix with fork
+until blended.
+4. With fingers or fork, dip bread slices into egg mixture to coat
+both sides. Lay slices over sugar-cinnamon mixture in baking pan or
+dish. Pour any remaining egg mixture over the bread slices.
+5. Cover pan with foil and refrigerate overnight.
+6. Remove pan from refrigerator 1 hour before baking. Let stand on the
+kitchen counter to reach room temperature.
+7. Preheat oven to 375 degrees F.
+8. Carefully place pan of French toast in hot oven. Bake 25 minutes.
+9. Using oven mitts, remove pan from oven to wire cooling rack. With
+oven mitts, carefully remove foil from pan.
+10. Return pan to hot oven. Bake for 15 minutes longer.
+11. Using oven mitts, remove pan to cooling rack. Sprinkle French
+toast with powdered sugar. Serve warm.
+Cook's Notes
+1. Here's a terrific breakfast treat, but to make it you'll need to
+think ahead. You need to start this recipe the day before you serve
+it, since it must be refrigerated overnight. Use crusty loaves of
+French bread cut into slices. Regular white bread slices won't work --
+they're too soft and will get soggy.
+2. When measuring brown sugar, follow these simple steps: Spoon the
+brown sugar out of its box into the correct size dry measuring cup.
+With your hand on the back of a wooden spoon, push the brown sugar
+into the measuring cup to "pack" it.
+Continue spooning in the sugar and packing it down until the cup is
+full and level on the top.
+When directed in the recipe to add the brown sugar, turn the cup
+upside down into the bowl. The sugar should come out easily and hold
+its "cup" shape.</Directions>
+    <Comment>This French toast is a bit different from the usual kind. The bread is
+first dipped into a sweetened cinnamon-flavored batter, then set in
+refrigerator overnight to absorb the delicious flavors. The next
+morning, it's baked rather than fried. What a way to start the day
+with sleepover friends or your own family.</Comment>
+  </Recipe>
+  <Recipe>
+    <RecipeID>13</RecipeID>
+    <Title>Top Hat Pizza</Title>
+    <RecipeType>Meal Item   </RecipeType>
+    <Yield>1 serving      </Yield>
+    <Directions>1. Peel and chop onion (see Cook's Note). Measure out 2 teaspoons and
+set aside. (Save the rest to use in another recipe.)
+2. Rinse bell pepper and place on cutting board. Remove seeds and
+white pith from inside the pepper. With small, sharp knife, chop bell
+pepper. Measure out 1 tablespoon and set aside. (Save the rest to use
+in another recipe.)
+3. Grate cheese if it is not pre-shredded (see Cook's Note)
+4. Preheat oven to 400 degrees F.
+5. Using kitchen scissors cut out a circle from top layer of the pita
+bread, leaving 1 inch of top all around to form an edge or border.
+Same cut-out circle.
+6. Place bottom of pita on cookie sheet or baking sheet. Using oven
+mitts, put on middle rack in hot oven. Bake 5 minutes.
+7. With oven mitts, carefully remove from oven and place pan on wire
+cooling rack. Cool slightly.
+8. Place cooled pita on cutting board. Using small spatula or spoon,
+spread pizza sauce evenly on top and also under the edge of the pita
+bread. Sprinkle bell pepper, onion, Italian seasoning, and mozzarella
+cheese evenly on top of sauce. Top with reserved circle of pita bead
+to form a "hat."
+9. Return completed pizza to cookie sheet or baking sheet. Bake in hot
+oven for 8 to 9 minutes.
+10. With oven mitts, carefully remove pan from oven to cooling rack.
+11. Sprinkle with Parmesan cheese and let stand a few minutes.
+12. Place pizza on cutting board. Cut in half with kitchen scissors,
+small knife, or pizza cutter. Serve hot.
+Cook's Note
+To grate your own cheese, follow these directions:
+Place the grater in a bowl.
+Hold the grater firmly in one hand and place a large piece of cheese
+in other hand.
+Rub the cheese against the small holes of the grater. (The cheese will
+come out in shreds.)
+Be careful not to rub your knuckles against the grater.</Directions>
+    <Comment>If you always thought pizza wasn't a nutritious food, think again.
+This one has a delicious combination of vitamin-packed peppers,
+low-fat cheese, and whole-wheat bread. It's great for a quick snack,
+lunch, or supper.</Comment>
+  </Recipe>
+  <Recipe>
+    <RecipeID>14</RecipeID>
+    <Title>Cream Sauce</Title>
+    <RecipeType>Meal Item   </RecipeType>
+    <Yield>6 servings     </Yield>
+    <Directions>In blender put lime juice, cilantro and 2/3 of the jalapeno's. Blend
+until smooth. Add sour cream, blend and taste. Add salt and taste. Add
+remaining jalapeno's if necessary.</Directions>
+  </Recipe>
+  <Recipe>
+    <RecipeID>15</RecipeID>
+    <Title>Papaya Pineapple Relish</Title>
+    <RecipeType>Meal Item   </RecipeType>
+    <Yield>6 servings     </Yield>
+    <Directions>Mix together and let sit for 1/2 hour.</Directions>
+  </Recipe>
+  <Recipe>
+    <RecipeID>16</RecipeID>
+    <Title>Halibut - with papaya pineapple relish</Title>
+    <RecipeType>Meal Item   </RecipeType>
+    <Yield>6 servings     </Yield>
+    <Directions>Season the halibut and pan sear until done. Place rice in center of
+plate. Place fish in top of rice and top with the relish and then the
+fried carrot. Place sprig and lemon wedge on plate. Make sure to
+drizzle some of the relish liquid around the plate.</Directions>
+  </Recipe>
+  <Recipe>
+    <RecipeID>17</RecipeID>
+    <Title>Crab Cakes</Title>
+    <RecipeType>Meal Item   </RecipeType>
+    <Yield>6 servings     </Yield>
+    <Directions>In a large bowl put peppers and seasonings to taste. Add cream and
+crab being careful not to break up the crab too much. Add panko and
+coriander. Add beaten eggs and form patty to test for consistency. It
+should be somewhat light, not a dense glass breaking cake. If okay,
+then form into 1 3/4 oz balls and shape into patties. Toss in panko
+and place in a hotel pan divided by wax paper. saute and serve with
+Jalapeno Cilantro cream</Directions>
+  </Recipe>
+  <Recipe>
+    <RecipeID>18</RecipeID>
+    <Title>Seafood Pineapple Ceviche</Title>
+    <RecipeType>Meal Item   </RecipeType>
+    <Yield>6 servings     </Yield>
+    <Directions>Mix the first 4 ingredients together and set aside.
+Fry the tortilla bowl by pushing down into fryer with the backside of
+a 6 oz ladle.
+Cut other tortillas into wedges and fry till golden and crispy
+Cut the fish into small cubes and marinate with the shrimp and
+scallops in a mix of half lemon and half lime juices.  Cover and
+refrigerate overnight.
+Toss cooked ceviche with a 2 oz ladel full of the fruit mix.  Place a
+small scoop of rice in the center of the plate and place a tortilla
+bowl on the rice.  Place the ceviche in the tortilla bowl and garnish
+with scallop on the half shell, fried tortilla chips and fried
+parsley.</Directions>
+  </Recipe>
+  <Recipe>
+    <RecipeID>19</RecipeID>
+    <Title>Shrimp Scampi</Title>
+    <RecipeType>Meal Item   </RecipeType>
+    <Yield>6 servings     </Yield>
+    <Directions>Start with a hot pan. Add tbsp of olive oil. Add shrimp and saute for
+2 minutes. Add garlic and saute until toasted. Add tomatoes and
+deglaze with sherry. Season with salt and pepper. Finish with butter
+and add fresh basil.</Directions>
+    <Comment>This dish can be prepared with a variety of items beside shrimp.</Comment>
+  </Recipe>
+  <Recipe>
+    <RecipeID>20</RecipeID>
+    <Title>Rustic sundried tomato and walnut pesto</Title>
+    <RecipeType>Meal Item   </RecipeType>
+    <Yield>6 servings     </Yield>
+    <Directions>Start with a hot pan. Add tbsp of olive oil. Add garlic and saute for
+2 minutes, let cool. Mix all ingredients together.</Directions>
+  </Recipe>
+  <Recipe>
+    <RecipeID>21</RecipeID>
+    <Title>Steamed Clams</Title>
+    <RecipeType>Meal Item   </RecipeType>
+    <Yield>6 servings     </Yield>
+    <Directions>Start with a hot pan. Add tbsp of olive oil. Add clams and saute for 2
+minutes. Add garlic and saute until toasted. Deglaze with white wine,
+season with chili flakes, and pepper. Do not salt as clams are
+naturally salty. Cover and simmer for 6-7 minutes or until clams have
+opened. Finish with butter and chopped parsley.
+
+Serve with lemons and bread.</Directions>
+    <Comment>Clams contain sand and sediment. To remove most of this, soak
+clams in cold fresh water for 10-15 minutes. Clams will expel most of
+what sand they contain.</Comment>
+  </Recipe>
+</Recipes>

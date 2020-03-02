@@ -1,0 +1,850 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Contents of [Ingredient] Table in [Recipes] DB-->
+<Ingredients>
+
+  <Ingredient>
+    <IngredientID>2</IngredientID>
+    <RecipeID>1</RecipeID>
+    <Description>1 tablespoon olive oil</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>3</IngredientID>
+    <RecipeID>1</RecipeID>
+    <Description>1 large onion, chopped</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>4</IngredientID>
+    <RecipeID>1</RecipeID>
+    <Description>1 clove garlic, finely chopped</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>5</IngredientID>
+    <RecipeID>1</RecipeID>
+    <Description>1/4 teaspoon salt</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>6</IngredientID>
+    <RecipeID>1</RecipeID>
+    <Description>1/8 teaspoon pepper</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>7</IngredientID>
+    <RecipeID>1</RecipeID>
+    <Description>1/4 cup cilantro</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>8</IngredientID>
+    <RecipeID>1</RecipeID>
+    <Description>1 can (15 ounce) stewed tomatoes</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>9</IngredientID>
+    <RecipeID>1</RecipeID>
+    <Description>2 ounces tomato paste</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>10</IngredientID>
+    <RecipeID>1</RecipeID>
+    <Description>1 can (1 lb. 13 ounce) hominy</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>11</IngredientID>
+    <RecipeID>2</RecipeID>
+    <Description>1 1/2 pounds sirloin steak</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>12</IngredientID>
+    <RecipeID>2</RecipeID>
+    <Description>2 teaspoons vegetable oil</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>13</IngredientID>
+    <RecipeID>2</RecipeID>
+    <Description>1 clove garlic, minced</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>14</IngredientID>
+    <RecipeID>2</RecipeID>
+    <Description>1 teaspoon vinegar</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>15</IngredientID>
+    <RecipeID>2</RecipeID>
+    <Description>1/8 teaspoon salt</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>16</IngredientID>
+    <RecipeID>2</RecipeID>
+    <Description>1/8 teaspoon pepper</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>17</IngredientID>
+    <RecipeID>2</RecipeID>
+    <Description>2 large onions, sliced</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>18</IngredientID>
+    <RecipeID>2</RecipeID>
+    <Description>1 large tomato, sliced</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>19</IngredientID>
+    <RecipeID>2</RecipeID>
+    <Description>3 cups boiled potatoes, diced</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>20</IngredientID>
+    <RecipeID>3</RecipeID>
+    <Description>8 chicken pieces (breasts or legs)</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>21</IngredientID>
+    <RecipeID>3</RecipeID>
+    <Description>1 cup water</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>22</IngredientID>
+    <RecipeID>3</RecipeID>
+    <Description>2 small garlic cloves, minced</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>23</IngredientID>
+    <RecipeID>3</RecipeID>
+    <Description>1 small onion, chopped</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>24</IngredientID>
+    <RecipeID>3</RecipeID>
+    <Description>1 1/2 teaspoons salt</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>25</IngredientID>
+    <RecipeID>3</RecipeID>
+    <Description>1/2 teaspoon pepper</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>26</IngredientID>
+    <RecipeID>3</RecipeID>
+    <Description>3 medium tomatoes, chopped</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>27</IngredientID>
+    <RecipeID>3</RecipeID>
+    <Description>1 teaspoon parsley, chopped</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>28</IngredientID>
+    <RecipeID>3</RecipeID>
+    <Description>1/4 cup celery, finely chopped</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>29</IngredientID>
+    <RecipeID>3</RecipeID>
+    <Description>2 medium potatoes, peeled and chopped</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>30</IngredientID>
+    <RecipeID>3</RecipeID>
+    <Description>2 small carrots, chopped</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>31</IngredientID>
+    <RecipeID>3</RecipeID>
+    <Description>2 bay leaves</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>32</IngredientID>
+    <RecipeID>4</RecipeID>
+    <Description>4 skinless, boneless chicken breasts</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>33</IngredientID>
+    <RecipeID>4</RecipeID>
+    <Description>1/4 cup olive oil</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>34</IngredientID>
+    <RecipeID>4</RecipeID>
+    <Description>juice of 2 limes</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>35</IngredientID>
+    <RecipeID>4</RecipeID>
+    <Description>1/4 teaspoon oregano</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>36</IngredientID>
+    <RecipeID>4</RecipeID>
+    <Description>1/2 teaspoon black pepper</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>37</IngredientID>
+    <RecipeID>4</RecipeID>
+    <Description>1/4 cup water</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>38</IngredientID>
+    <RecipeID>4</RecipeID>
+    <Description>10 to 12 tomatillos, husks removed and cut in half</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>39</IngredientID>
+    <RecipeID>4</RecipeID>
+    <Description>1/2 medium onion, quartered</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>40</IngredientID>
+    <RecipeID>4</RecipeID>
+    <Description>2 cloves garlic, finely chopped</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>41</IngredientID>
+    <RecipeID>4</RecipeID>
+    <Description>2 serrano or jalapeno peppers</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>42</IngredientID>
+    <RecipeID>4</RecipeID>
+    <Description>2 tablespoons cilantro, chopped</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>43</IngredientID>
+    <RecipeID>4</RecipeID>
+    <Description>1/4 teaspoon salt</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>44</IngredientID>
+    <RecipeID>4</RecipeID>
+    <Description>1/4 cup low fat sour cream (or Homemade Sour Cream)</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>45</IngredientID>
+    <RecipeID>5</RecipeID>
+    <Description>1 pound pink beans</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>46</IngredientID>
+    <RecipeID>5</RecipeID>
+    <Description>10 cups water</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>47</IngredientID>
+    <RecipeID>5</RecipeID>
+    <Description>2 medium plantains, finely chopped</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>48</IngredientID>
+    <RecipeID>5</RecipeID>
+    <Description>1 large tomato, finely chopped</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>49</IngredientID>
+    <RecipeID>5</RecipeID>
+    <Description>1 small red pepper, finely chopped</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>50</IngredientID>
+    <RecipeID>5</RecipeID>
+    <Description>1 medium white onion, finely chopped</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>51</IngredientID>
+    <RecipeID>5</RecipeID>
+    <Description>3 cloves garlic, finely chopped</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>52</IngredientID>
+    <RecipeID>5</RecipeID>
+    <Description>1 1/2 teaspoons salt</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>53</IngredientID>
+    <RecipeID>6</RecipeID>
+    <Description>6 small chayotes (christophine), cut in half, lengthwise</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>54</IngredientID>
+    <RecipeID>6</RecipeID>
+    <Description>2 quarts water</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>55</IngredientID>
+    <RecipeID>6</RecipeID>
+    <Description>1 cup low fat cheddar cheese, shredded</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>56</IngredientID>
+    <RecipeID>6</RecipeID>
+    <Description>1/4 teaspoon salt</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>57</IngredientID>
+    <RecipeID>6</RecipeID>
+    <Description>1 tablespoon margarine</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>58</IngredientID>
+    <RecipeID>6</RecipeID>
+    <Description>1/2 cup plain bread crumbs</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>59</IngredientID>
+    <RecipeID>7</RecipeID>
+    <Description>2 tablespoons skim milk</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>60</IngredientID>
+    <RecipeID>7</RecipeID>
+    <Description>1 tablespoon lemon juice</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>61</IngredientID>
+    <RecipeID>7</RecipeID>
+    <Description>1 cup low fat cottage cheese</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>62</IngredientID>
+    <RecipeID>8</RecipeID>
+    <Description>6 cups water</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>63</IngredientID>
+    <RecipeID>8</RecipeID>
+    <Description>2 cinnamon sticks</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>64</IngredientID>
+    <RecipeID>8</RecipeID>
+    <Description>1 cup rice</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>65</IngredientID>
+    <RecipeID>8</RecipeID>
+    <Description>3 cups skim milk</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>66</IngredientID>
+    <RecipeID>8</RecipeID>
+    <Description>2/3 cup sugar</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>67</IngredientID>
+    <RecipeID>8</RecipeID>
+    <Description>1/2 teaspoon salt</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>68</IngredientID>
+    <RecipeID>9</RecipeID>
+    <Description>3/4 cup water</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>69</IngredientID>
+    <RecipeID>9</RecipeID>
+    <Description>1/2 cup sugar</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>70</IngredientID>
+    <RecipeID>9</RecipeID>
+    <Description>2 teaspoons fresh lemon juice</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>71</IngredientID>
+    <RecipeID>9</RecipeID>
+    <Description>1 piece lemon peel</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>72</IngredientID>
+    <RecipeID>9</RecipeID>
+    <Description>1/2 teaspoon rum or vanilla extract (optional)</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>73</IngredientID>
+    <RecipeID>9</RecipeID>
+    <Description>1 pineapple, cored and peeled, cut into 8 slices</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>74</IngredientID>
+    <RecipeID>9</RecipeID>
+    <Description>2 mangos, peeled and pitted, cut into 8 pieces</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>75</IngredientID>
+    <RecipeID>9</RecipeID>
+    <Description>3 bananas peeled, cut into 8 diagonal pieces</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>76</IngredientID>
+    <RecipeID>9</RecipeID>
+    <Description>fresh mint leaves (optional)</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>77</IngredientID>
+    <RecipeID>10</RecipeID>
+    <Description>Fresh Oysters shucked and rinsed</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>78</IngredientID>
+    <RecipeID>10</RecipeID>
+    <Description>pint Clam juice</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>79</IngredientID>
+    <RecipeID>10</RecipeID>
+    <Description>1 Lb Spinach picked and cleaned</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>80</IngredientID>
+    <RecipeID>10</RecipeID>
+    <Description>1/2 cup Ouzo (or Pernod, Anisette)</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>81</IngredientID>
+    <RecipeID>10</RecipeID>
+    <Description>1/2 gallon Heavy Cream</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>82</IngredientID>
+    <RecipeID>10</RecipeID>
+    <Description>1 tsp Chili powder</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>83</IngredientID>
+    <RecipeID>10</RecipeID>
+    <Description>1 yellow onion small dice</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>84</IngredientID>
+    <RecipeID>10</RecipeID>
+    <Description>1 cup Panko</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>85</IngredientID>
+    <RecipeID>10</RecipeID>
+    <Description>Prosciutto cut into small thin strips</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>86</IngredientID>
+    <RecipeID>10</RecipeID>
+    <Description>Butter</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>87</IngredientID>
+    <RecipeID>10</RecipeID>
+    <Description>Salt and pepper to taste</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>88</IngredientID>
+    <RecipeID>11</RecipeID>
+    <Description>1-3/4 cups herb-seasoned crumb stuffing mix</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>89</IngredientID>
+    <RecipeID>11</RecipeID>
+    <Description>1/4 cup grated Parmesan cheese</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>90</IngredientID>
+    <RecipeID>11</RecipeID>
+    <Description>3 tablespoons margarine</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>91</IngredientID>
+    <RecipeID>11</RecipeID>
+    <Description>1/4 cup low-fat buttermilk</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>92</IngredientID>
+    <RecipeID>11</RecipeID>
+    <Description>1/4 teaspoon ground black pepper</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>93</IngredientID>
+    <RecipeID>11</RecipeID>
+    <Description>2 boneless, skinless chicken breasts (approximately 1 pound)</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>94</IngredientID>
+    <RecipeID>12</RecipeID>
+    <Description>1/4 cup (1/2 stick) margarine</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>95</IngredientID>
+    <RecipeID>12</RecipeID>
+    <Description>1/2 cup firmly packed dark brown sugar</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>96</IngredientID>
+    <RecipeID>12</RecipeID>
+    <Description>3/4 teaspoon ground cinnamon</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>97</IngredientID>
+    <RecipeID>12</RecipeID>
+    <Description>Liquid egg substitute equal to 2 eggs</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>98</IngredientID>
+    <RecipeID>12</RecipeID>
+    <Description>1/4 cup skim milk</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>99</IngredientID>
+    <RecipeID>12</RecipeID>
+    <Description>6 1-inch-thick slices French bread</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>100</IngredientID>
+    <RecipeID>12</RecipeID>
+    <Description>1 to 2 tablespoons powdered or confectioners' sugar</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>101</IngredientID>
+    <RecipeID>13</RecipeID>
+    <Description>1 7-to 7-1/2-inch round piece whole-wheat pita or pocket bread</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>102</IngredientID>
+    <RecipeID>13</RecipeID>
+    <Description>3 tablespoons prepared pizza sauce</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>103</IngredientID>
+    <RecipeID>13</RecipeID>
+    <Description>1/4 green or red bell pepper</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>104</IngredientID>
+    <RecipeID>13</RecipeID>
+    <Description>1/4 small onion</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>105</IngredientID>
+    <RecipeID>13</RecipeID>
+    <Description>1/8 teaspoon dried Italian herb seasoning</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>106</IngredientID>
+    <RecipeID>13</RecipeID>
+    <Description>1/2 ounce part-skim mozzarella cheese (2 tablespoons grated)</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>107</IngredientID>
+    <RecipeID>13</RecipeID>
+    <Description>1/2 teaspoon grated Parmesan cheese</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>108</IngredientID>
+    <RecipeID>14</RecipeID>
+    <Description>1 qt sour cream</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>109</IngredientID>
+    <RecipeID>14</RecipeID>
+    <Description>6-9  jalapenos - roasted</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>110</IngredientID>
+    <RecipeID>14</RecipeID>
+    <Description>3 bunch cilantro</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>111</IngredientID>
+    <RecipeID>14</RecipeID>
+    <Description>1/2 cup  lime juice</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>112</IngredientID>
+    <RecipeID>14</RecipeID>
+    <Description>pinch salt</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>113</IngredientID>
+    <RecipeID>15</RecipeID>
+    <Description>1 pineapple - small dice</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>114</IngredientID>
+    <RecipeID>15</RecipeID>
+    <Description>2 papaya - small dice</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>115</IngredientID>
+    <RecipeID>15</RecipeID>
+    <Description>1 small red onion - fine dice</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>116</IngredientID>
+    <RecipeID>15</RecipeID>
+    <Description>1 red bell pepper - fine dice</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>117</IngredientID>
+    <RecipeID>15</RecipeID>
+    <Description>1 bunch cilantro - chopped</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>118</IngredientID>
+    <RecipeID>15</RecipeID>
+    <Description>3 oz honey</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>119</IngredientID>
+    <RecipeID>15</RecipeID>
+    <Description>1 can coconut milk</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>120</IngredientID>
+    <RecipeID>15</RecipeID>
+    <Description>2 oz olive oil</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>121</IngredientID>
+    <RecipeID>16</RecipeID>
+    <Description>6 oz halibut</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>122</IngredientID>
+    <RecipeID>16</RecipeID>
+    <Description>salt and pepper</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>123</IngredientID>
+    <RecipeID>16</RecipeID>
+    <Description>2 oz papaya pineapple relish</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>124</IngredientID>
+    <RecipeID>16</RecipeID>
+    <Description>parsley sprig</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>125</IngredientID>
+    <RecipeID>16</RecipeID>
+    <Description>lemon wedge</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>126</IngredientID>
+    <RecipeID>16</RecipeID>
+    <Description>fried julienne carrot</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>127</IngredientID>
+    <RecipeID>16</RecipeID>
+    <Description>Papaya Pineapple Relish (separate recipe)</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>128</IngredientID>
+    <RecipeID>17</RecipeID>
+    <Description>6 lb crab meat</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>129</IngredientID>
+    <RecipeID>17</RecipeID>
+    <Description>4 cups red bell pepper &amp; green bell pepper - small dice</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>130</IngredientID>
+    <RecipeID>17</RecipeID>
+    <Description>6 1/2 cups heavy cream - reduce by 2/3</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>131</IngredientID>
+    <RecipeID>17</RecipeID>
+    <Description>10 cups  panko - japanese bread crumb</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>132</IngredientID>
+    <RecipeID>17</RecipeID>
+    <Description>2 tbsp toasted coriander - ground</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>133</IngredientID>
+    <RecipeID>17</RecipeID>
+    <Description>2 tbsp cayenne</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>134</IngredientID>
+    <RecipeID>17</RecipeID>
+    <Description>1 tbsp ground cumin</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>135</IngredientID>
+    <RecipeID>17</RecipeID>
+    <Description>1 tsp kosher salt</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>136</IngredientID>
+    <RecipeID>17</RecipeID>
+    <Description>1 bunch cilantro</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>137</IngredientID>
+    <RecipeID>17</RecipeID>
+    <Description>6 whole eggs</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>138</IngredientID>
+    <RecipeID>18</RecipeID>
+    <Description>1 pineapple - small dice</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>139</IngredientID>
+    <RecipeID>18</RecipeID>
+    <Description>1 red bell pepper - small dice</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>140</IngredientID>
+    <RecipeID>18</RecipeID>
+    <Description>1 green bell pepper - small dice</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>141</IngredientID>
+    <RecipeID>18</RecipeID>
+    <Description>1 bunch cilantro - chopped</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>142</IngredientID>
+    <RecipeID>18</RecipeID>
+    <Description>Halibut</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>143</IngredientID>
+    <RecipeID>18</RecipeID>
+    <Description>Bay Shrimp</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>144</IngredientID>
+    <RecipeID>18</RecipeID>
+    <Description>Scallops</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>145</IngredientID>
+    <RecipeID>18</RecipeID>
+    <Description>Lime Juice</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>146</IngredientID>
+    <RecipeID>18</RecipeID>
+    <Description>Lemon Juice</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>147</IngredientID>
+    <RecipeID>18</RecipeID>
+    <Description>Salt and pepper</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>148</IngredientID>
+    <RecipeID>18</RecipeID>
+    <Description>Tortilla basket's  4 inch corn tortilla</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>149</IngredientID>
+    <RecipeID>18</RecipeID>
+    <Description>Tortilla chips</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>150</IngredientID>
+    <RecipeID>19</RecipeID>
+    <Description>5 each Prawns (U-15)</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>151</IngredientID>
+    <RecipeID>19</RecipeID>
+    <Description>1/4 cup Sherry </Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>152</IngredientID>
+    <RecipeID>19</RecipeID>
+    <Description>1 tbsp garlic - shaved</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>153</IngredientID>
+    <RecipeID>19</RecipeID>
+    <Description>2 tsp Basil - chopped</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>154</IngredientID>
+    <RecipeID>19</RecipeID>
+    <Description>1/4 cup Diced tomatoes, seeded</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>155</IngredientID>
+    <RecipeID>19</RecipeID>
+    <Description>to taste salt, black pepper</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>156</IngredientID>
+    <RecipeID>19</RecipeID>
+    <Description>small pinch chili flakes</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>157</IngredientID>
+    <RecipeID>19</RecipeID>
+    <Description>2 tbsp butter</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>158</IngredientID>
+    <RecipeID>20</RecipeID>
+    <Description>1 cup walnuts-rough chopped</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>159</IngredientID>
+    <RecipeID>20</RecipeID>
+    <Description>1 cup sun dried tomatoes-thin slice</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>160</IngredientID>
+    <RecipeID>20</RecipeID>
+    <Description>2 cloves garlic - minced and mashed</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>161</IngredientID>
+    <RecipeID>20</RecipeID>
+    <Description>2 tsp basil - sliced thinly</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>162</IngredientID>
+    <RecipeID>20</RecipeID>
+    <Description>1/2 cup olive oil</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>163</IngredientID>
+    <RecipeID>20</RecipeID>
+    <Description>to taste salt and pepper</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>164</IngredientID>
+    <RecipeID>21</RecipeID>
+    <Description>1 lb clams - nz cockles, venus or manila - washed</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>165</IngredientID>
+    <RecipeID>21</RecipeID>
+    <Description>1 cup white wine</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>166</IngredientID>
+    <RecipeID>21</RecipeID>
+    <Description>1 tbsp garlic - shaved or minced</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>167</IngredientID>
+    <RecipeID>21</RecipeID>
+    <Description>2 tsp parsley - chopped</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>168</IngredientID>
+    <RecipeID>21</RecipeID>
+    <Description>1 pinch chili flakes</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>169</IngredientID>
+    <RecipeID>21</RecipeID>
+    <Description>to taste black pepper</Description>
+  </Ingredient>
+  <Ingredient>
+    <IngredientID>170</IngredientID>
+    <RecipeID>21</RecipeID>
+    <Description>3 tbsp butter</Description>
+  </Ingredient>
+</Ingredients>

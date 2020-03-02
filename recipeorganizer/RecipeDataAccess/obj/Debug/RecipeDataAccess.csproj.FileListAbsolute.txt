@@ -1,0 +1,13 @@
+C:\Users\arick.jorgensen\bitbucket\recipe_v1\recipeorganizer\RecipeDataAccess\bin\Debug\RecipeDataAccess.dll
+C:\Users\arick.jorgensen\bitbucket\recipe_v1\recipeorganizer\RecipeDataAccess\bin\Debug\RecipeDataAccess.pdb
+C:\Users\arick.jorgensen\bitbucket\recipe_v1\recipeorganizer\RecipeDataAccess\obj\Debug\RecipeDataAccess.dll
+C:\Users\arick.jorgensen\bitbucket\recipe_v1\recipeorganizer\RecipeDataAccess\obj\Debug\RecipeDataAccess.pdb
+E:\Git\Firehawks\recipe_v1\recipeorganizer\RecipeDataAccess\bin\Debug\RecipeDataAccess.dll
+E:\Git\Firehawks\recipe_v1\recipeorganizer\RecipeDataAccess\bin\Debug\RecipeDataAccess.pdb
+E:\Git\Firehawks\recipe_v1\recipeorganizer\RecipeDataAccess\obj\Debug\RecipeDataAccess.csprojResolveAssemblyReference.cache
+E:\Git\Firehawks\recipe_v1\recipeorganizer\RecipeDataAccess\obj\Debug\RecipeDataAccess.dll
+E:\Git\Firehawks\recipe_v1\recipeorganizer\RecipeDataAccess\obj\Debug\RecipeDataAccess.pdb
+C:\Users\sienn\source\Recipe_V\recipeorganizer\RecipeDataAccess\bin\Debug\RecipeDataAccess.dll
+C:\Users\sienn\source\Recipe_V\recipeorganizer\RecipeDataAccess\bin\Debug\RecipeDataAccess.pdb
+C:\Users\sienn\source\Recipe_V\recipeorganizer\RecipeDataAccess\obj\Debug\RecipeDataAccess.dll
+C:\Users\sienn\source\Recipe_V\recipeorganizer\RecipeDataAccess\obj\Debug\RecipeDataAccess.pdb
