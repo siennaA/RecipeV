@@ -15,11 +15,11 @@
         <Label Content="Directions" Margin="400,71,86,508.333" FontSize="14" FontWeight="Bold"/>
         <Label Content="Ingredients" Margin="22,334,591,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" Height="29"/>
         <Label Content="Recipe Type" Margin="21,75,557,507.333" RenderTransformOrigin="0.049,-0.33" FontSize="14" FontWeight="Bold"/>
-        <Label Content="Yield" Margin="21,169,606,0" VerticalAlignment="Top" Height="26"/>
+        <Label Content="Yield" Margin="21,169,606,0" VerticalAlignment="Top" Height="26" FontWeight="Bold"/>
         <TextBox x:Name="textBox_RecipeYield" Text="{Binding SelectedItem.Yield, ElementName=listBox_Recipes}" Height="43" Margin="21,195,367.667,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <Label Content="Serving Size" Margin="25,245,623.667,0" VerticalAlignment="Top" Height="26"/>
+        <Label Content="Serving Size" Margin="25,245,623.667,0" VerticalAlignment="Top" Height="26" FontWeight="Bold"/>
         <TextBox x:Name="textBox_RecipeServingSize"  Height="51" Margin="23,271,367.667,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <Button x:Name="btnDelete" Content="Cancel" Margin="640,536,31.667,18.333" RenderTransformOrigin="4.835,0.772" Click="btnDelete_Click"/>
+        <Button x:Name="btnCancel" Content="Cancel" Margin="640,536,31.667,18.333" RenderTransformOrigin="4.835,0.772" Click="btnCancel_Click"/>
         <Button x:Name="btnSave" Content="Save" Margin="536,536,129.667,17.333" RenderTransformOrigin="1.549,0.586" Click="btnSave_Click"/>
         <Button x:Name="btnReset" Content="Reset" Margin="438,537,231.667,16.333" Click="btnReset_Click"/>
         <TextBox x:Name="textbox_RecipeComment"  Height="57" Margin="18,538,366.667,0" VerticalAlignment="Top"/>

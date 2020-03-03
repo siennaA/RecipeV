@@ -155,3 +155,7 @@ C:\Users\sienn\OneDrive\Documents\GitHub\RecipeV\recipeorganizer\RecipeViewer\ob
 C:\Users\sienn\OneDrive\Documents\GitHub\RecipeV\recipeorganizer\RecipeViewer\obj\Debug\RecipeOrganizer.csproj.CopyComplete
 C:\Users\sienn\OneDrive\Documents\GitHub\RecipeV\recipeorganizer\RecipeViewer\obj\Debug\RecipeOrganizer.exe
 C:\Users\sienn\OneDrive\Documents\GitHub\RecipeV\recipeorganizer\RecipeViewer\obj\Debug\RecipeOrganizer.pdb
+C:\Users\sienn\OneDrive\Documents\GitHub\RecipeV\recipeorganizer\RecipeViewer\obj\Debug\ConfirmDelete.g.cs
+C:\Users\sienn\OneDrive\Documents\GitHub\RecipeV\recipeorganizer\RecipeViewer\obj\Debug\ConfirmDelete.baml
+C:\Users\sienn\OneDrive\Documents\GitHub\RecipeV\recipeorganizer\RecipeViewer\obj\Debug\EditRecipe.g.cs
+C:\Users\sienn\OneDrive\Documents\GitHub\RecipeV\recipeorganizer\RecipeViewer\obj\Debug\EditRecipe.baml

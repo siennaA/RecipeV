@@ -1,0 +1,42 @@
+﻿<Window x:Class="RecipeViewer.EditRecipe"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RecipeViewer"
+        mc:Ignorable="d"
+        Title="EditRecipe" Height="638.235" Width="707.059">
+    <Grid Margin="0,0,0,-0.333" HorizontalAlignment="Left" Width="712">
+        <Label x:Name="label_RecName" Content="Title" Margin="19,3,0,0" VerticalAlignment="Top" Height="29" FontWeight="Bold" FontSize="14" HorizontalAlignment="Left" Width="123" />
+        <ListView x:Name="lstVw_Ingredients"  Height="85" Margin="21,417,340,0" VerticalAlignment="Top" SelectionChanged="lstVw_Ingredients_SelectionChanged"/>
+        <TextBox x:Name="textBox_RecipeDirections"  Margin="401,109,29,93" TextWrapping="Wrap" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto"/>
+        <ListView x:Name="lstVw_RecipeType"  Margin="21,104,346,443" SelectionChanged="lstVw_RecipeType_SelectionChanged" />
+        <TextBox x:Name="textBox_RecipeTitle"  Height="37" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Margin="20,29,24,0" TextChanged="textBox_RecipeTitle_TextChanged"/>
+        <Label Content="Directions" Margin="400,71,151,502" FontSize="14" FontWeight="Bold"/>
+        <Label Content="Ingredients" Margin="22,334,584,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" Height="29"/>
+        <Label Content="Recipe Type" Margin="21,66,575,509" RenderTransformOrigin="0.049,-0.33" FontSize="14" FontWeight="Bold"/>
+        <Label Content="Yield" Margin="23,163,0,0" VerticalAlignment="Top" Height="26" FontWeight="Bold" HorizontalAlignment="Left" Width="217"/>
+        <TextBox x:Name="textBox_RecipeYield" Text="{Binding SelectedItem.Yield, ElementName=listBox_Recipes}" Height="43" Margin="21,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Width="345" TextChanged="textBox_RecipeYield_TextChanged"/>
+        <Label Content="Serving Size" Margin="25,245,474,0" VerticalAlignment="Top" Height="26" FontWeight="Bold"/>
+        <TextBox x:Name="textBox_RecipeServingSize"  Height="51" Margin="23,271,341,0" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="textBox_RecipeServingSize_TextChanged"/>
+        <Button x:Name="btnCancel" Content="Cancel" Margin="612,543,55,16" RenderTransformOrigin="4.835,0.772" Click="btnCancel_Click"/>
+        <Button x:Name="btnSave" Content="Save" Margin="461,543,204,0" RenderTransformOrigin="1.549,0.586" Click="btnSave_Click" Height="46" VerticalAlignment="Top">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.82"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-2.051"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="btnDelete" Content="Delete" Margin="538,541,0,16" Click="btnDelete_Click" RenderTransformOrigin="1.23,0.428" HorizontalAlignment="Left" Width="46"/>
+        <TextBox x:Name="textbox_RecipeComment"  Height="57" Margin="18,538,340,0" VerticalAlignment="Top"/>
+        <Label Content="Comments" Margin="23,508,572,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" Height="29"/>
+        <TextBox x:Name="textBox_Ingredient"  Height="40" Margin="23,370,339,0" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="textBox_Ingredient_TextChanged"/>
+        <Button x:Name="Btn_AddIngredent" Content="Add" HorizontalAlignment="Left" Margin="199,329,0,0" VerticalAlignment="Top" Width="75" IsEnabled="False" Height="31" Click="Btn_AddIngredent_Click" RenderTransformOrigin="-0.111,0.312"/>
+        <Button x:Name="Btn_DelIngredent" Content="Del" HorizontalAlignment="Left" Margin="293,329,0,0" VerticalAlignment="Top" Width="75" IsEnabled="False" Height="31" Click="Btn_DelIngredent_Click" RenderTransformOrigin="-0.778,0.462"/>
+        <TextBox x:Name="textBoxRecipeID_hidden" HorizontalAlignment="Left" Height="16" Margin="617,5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="68" Visibility="Hidden"/>
+
+    </Grid>
+</Window>

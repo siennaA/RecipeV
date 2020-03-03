@@ -8,11 +8,7 @@ using System.Threading.Tasks;
 
 namespace RecipesEDM {
     [Table("Ingredient")]
-    public partial class Ingredient {
-        /* IngredientID:  int, primary key, identity attribute
-        Description:  string, required, max. 100 characters
-        RecipeID:  int, required, relates to RecipeID in Recipes table
-        */
+    public partial class Ingredient {       
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int? IngredientID { get; set; }
 

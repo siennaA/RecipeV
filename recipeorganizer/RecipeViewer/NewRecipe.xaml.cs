@@ -31,11 +31,11 @@ namespace RecipeViewer
             _newRecipe = new Recipe();
             _newIngredientList = new List<string>();
             lstVw_RecipeType.Items.Add("Meal Item");
-            lstVw_RecipeType.Items.Add("Desert");
+            lstVw_RecipeType.Items.Add("Dessert");
             lstVw_RecipeType.SelectedItem = -1;
         }
 
-        private void btnDelete_Click(object sender, RoutedEventArgs e)
+        private void btnCancel_Click(object sender, RoutedEventArgs e)
         {
             DialogResult = false;
         }
@@ -49,39 +49,30 @@ namespace RecipeViewer
             _newRecipe.Directions = textBox_RecipeDirections.Text;
             _newRecipe.Comment = textbox_RecipeComment.Text;
 
-            try
+            Collection<Ingredient> ingredients = new Collection<Ingredient>();
+            foreach (var item in lstVw_Ingredients.Items)
             {
-                using (RecipesContext context = new RecipesContext())
-                {
-                    context.Recipes.Add(_newRecipe);
-                    foreach (var item in lstVw_Ingredients.Items)
-                    {
-                        context.Ingredients.Add(new Ingredient { Description = item.ToString(), Recipe = _newRecipe });
-                    }
-                    context.SaveChanges();
-                }
+                ingredients.Add(new Ingredient { Description = item.ToString(), Recipe = _newRecipe });
+            }
+
+            _newRecipe.Ingredients = ingredients;
+            string msg;
+            bool success = ((MainWindow)this.Owner).Vm.AddRecipe(_newRecipe, out msg);
+            if (success)
+            {
                 textBox_RecipeTitle.Text = "";
-                lstVw_RecipeType.SelectedIndex = -1 ;
+                lstVw_RecipeType.SelectedIndex = -1;
                 textBox_RecipeYield.Text = "";
                 textBox_RecipeServingSize.Text = "";
                 textBox_RecipeDirections.Text = "";
                 lstVw_Ingredients.Items.Clear();
                 textbox_RecipeComment.Text = "";
+
+                ((MainWindow)this.Owner).Vm.FillRecipe();
             }
-            catch (DbEntityValidationException dbEx)
-            {
-                StringBuilder msg = new StringBuilder();
-                foreach (DbEntityValidationResult entityErr in dbEx.EntityValidationErrors)
-                {
-                    foreach (DbValidationError error in entityErr.ValidationErrors)
-                    {
-                        msg.Append(error.PropertyName + ": " + error.ErrorMessage + "\n");
-                    }
-                }
-                msg.Append("Please, select or fill the required informations.");
-                MessageBox.Show(msg.ToString(), "Please Read!");
-            }
+            MessageBox.Show(msg, "Error");
         }
+    
 
         private void Btn_AddIngredent_Click(object sender, RoutedEventArgs e)
         {

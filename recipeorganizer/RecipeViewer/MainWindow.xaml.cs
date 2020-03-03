@@ -40,8 +40,6 @@ namespace RecipeViewer
                 
                 DataContext = Vm;
                 SortTypeName();
-                
-
             }
             catch (NullReferenceException ex)
             {
@@ -64,11 +62,11 @@ namespace RecipeViewer
 
             if (ErrorBoxMessage != null)
             {
-                SetMessageBox(ErrorBoxMessage);
+                SetNotification(ErrorBoxMessage, true);
             }
             else
             {
-                SetMessageBox("The database has been loaded correctly.", true);
+                SetNotification("The database has been loaded correctly.", true);
             }
         }
 
@@ -80,17 +78,19 @@ namespace RecipeViewer
 
             CoView.SortDescriptions.Add(new SortDescription("Title", ListSortDirection.Ascending));
         }
-        public void SetMessageBox(string message, bool positive = false)
+
+        public void SetNotification(string message, bool positive = false)
         {
             if (!positive)
-                textBlockNotifications.Foreground = Brushes.Red;
+            {
+                textBoxNotifications.Text = message;
+                textBoxNotifications.Visibility = Visibility.Hidden;
+            }
             else
-                textBlockNotifications.Foreground = Brushes.Green;
-            textBlockNotifications.Text = message;
-            if (message == "")
-                lblNotifications.Visibility = Visibility.Hidden;
-            else
-                lblNotifications.Visibility = Visibility.Visible;
+            {
+                textBoxNotifications.Text = message;
+                textBoxNotifications.Visibility = Visibility.Visible;
+            }
         }
 
         public static void SetTopExceptionError(Exception ex, string message)
@@ -99,6 +99,143 @@ namespace RecipeViewer
             {
                 TopErrorException = ex;
                 ErrorBoxMessage = message;
+            }
+        }
+
+        
+
+        private void exitButton_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                validWindowClose = true;
+                this.Close();
+            }
+            finally
+            {
+                validWindowClose = false;
+            }
+        }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            if (!validWindowClose)
+            {
+                e.Cancel = true;
+                SetNotification("Please use the 'Exit' button on the form", true);
+            }
+        }
+
+        private void btnRefresh_Click(object sender, RoutedEventArgs e)
+        {
+            Vm.FillRecipe();
+            RefreshContents();
+            SetNotification("Refreshed Recipe Lists", true);
+        }
+        
+        private void RefreshContents()
+        {
+            listBox_Recipes.SelectedIndex = -1;
+            btnEdit.IsEnabled = false;
+            btnDelete.IsEnabled = false;
+            textBoxNotifications.Visibility = Visibility.Hidden;
+            textBoxNotifications.Text = "";            
+        }
+
+        private void btnSearch_Click(object sender, RoutedEventArgs e)
+        {            
+            SearchDialogBox dialog = new SearchDialogBox();
+            #region SearchDialogBox Initialization
+            dialog.Title = this.Title;
+            dialog.Left = this.Left + (this.Width / 2) - (dialog.Width / 2);
+            dialog.Top = this.Top + (this.Height / 2) - (dialog.Height / 2);
+            #endregion
+            if ((bool)dialog.ShowDialog())
+            {
+                Vm.Recipes = new ObservableCollection<Recipe>();
+                foreach (var r in dialog.foundRecipes) {
+                    ObservableCollection<Ingredient> ingredients = new ObservableCollection<Ingredient>();
+                    foreach (var ing in r.Ingredients) {
+                        ingredients.Add(ing);
+                    }
+                    switch (r.RecipeType.Trim()) {
+                        case "Meal Item":
+                            Vm.Recipes.Add(new MealItem { RecipeID = r.RecipeID, Title = r.Title, RecipeType = "Meal Item", Yield = r.Yield, ServingSize = r.ServingSize, Directions = r.Directions, Comment = r.Comment, Ingredients = ingredients });
+                            break;
+                        case "Dessert":
+                            Vm.Recipes.Add(new Dessert { RecipeID = r.RecipeID, Title = r.Title, RecipeType = "Dessert", Yield = r.Yield, ServingSize = r.ServingSize, Directions = r.Directions, Comment = r.Comment, Ingredients = ingredients });
+                            break;
+                    }
+                }
+                if (dialog.foundRecipes.Count != 0)
+                {
+                    SetNotification($"Found {dialog.foundRecipes.Count} recipes with search criteria: {dialog.searchInputTextBox.Text}", true);
+                }
+                else if (dialog.searchInputTextBox.Text.Trim() != "")
+                {
+                    SetNotification($"No recipes were found with search criteria: {dialog.searchInputTextBox.Text}", true);
+                }
+
+            }
+            else
+                SetNotification("", false);
+        }
+
+        private void btnNew_Click(object sender, RoutedEventArgs e)
+        {
+            SetNotification("", false);
+
+            NewRecipe newRecipeWindow = new NewRecipe();
+            newRecipeWindow.Owner = this;
+            newRecipeWindow.ShowDialog();            
+
+        }
+
+        private void listBox_Recipes_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            //SetNotification("", false);
+
+            if (listBox_Recipes.SelectedIndex >= 0)
+            {
+                btnEdit.IsEnabled = true;
+                btnDelete.IsEnabled = true;
+                Vm.SelectedRecipe = (Recipe)(listBox_Recipes.SelectedItem);
+            }
+        }
+
+        private void btnDelete_Click(object sender, RoutedEventArgs e)
+        {
+            SetNotification("", false);
+
+            if (listBox_Recipes.SelectedIndex >= 0)
+            {                
+                string confirmMsg = listBox_Recipes.SelectedItem.ToString() + " is going to be deleted. Are you sure?";
+                string msg;
+               
+                if (MessageBox.Show(confirmMsg, "Delete", MessageBoxButton.OKCancel) == MessageBoxResult.OK)
+                {
+                    
+                    if (Vm.DeleteRecipe((int)(Vm.SelectedRecipe.RecipeID), out msg))
+                    {
+                        SetNotification(msg, true);
+                    }
+                    else
+                    {
+                        MessageBox.Show(msg, "Delete Error!");
+                    }
+                }
+            }
+            
+        }
+
+        private void btnEdit_Click(object sender, RoutedEventArgs e)
+        {
+            SetNotification("", false);
+            if (listBox_Recipes.SelectedIndex >= 0)
+            {
+                EditRecipe editRecipeWindow = new EditRecipe(Vm.SelectedRecipe);
+                editRecipeWindow.Owner = this;
+                editRecipeWindow.ShowDialog();
             }
         }
 
@@ -130,118 +267,6 @@ namespace RecipeViewer
             //}
         }
 
-        private void exitButton_Click(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                validWindowClose = true;
-                this.Close();
-            }
-            finally
-            {
-                validWindowClose = false;
-            }
-        }
-
-        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
-        {
-            if (!validWindowClose)
-            {
-                e.Cancel = true;
-                SetMessageBox("Please use the 'Exit' button on the form", false);
-            }
-        }
-
-        private void btnRefresh_Click(object sender, RoutedEventArgs e)
-        {
-            RefreshForm();
-            SetMessageBox("");
-        }
-
-        private void RefreshForm()
-        {
-            using (RecipesContext context = new RecipesContext())
-            {
-                //listBox_Recipes.DataContext = (
-                //           from r in context.Recipes
-                //           select r).Include(r => r.Ingredients).ToList();
-                Vm.Recipes = Vm.FillRecipe();
-                RefreshContents();
-            }
-        }
-
-        private void RefreshContents()
-        {
-            listBox_Recipes.SelectedIndex = -1;
-            btnEdit.IsEnabled = false;
-            btnDelete.IsEnabled = false;
-            
-            //textBox_RecipeType.Text = textBox_Directions.Text = lstVw_Ingredients.Text = textBox_Comments.Text = string.Empty;
-        }
-
-        private void btnSearch_Click(object sender, RoutedEventArgs e)
-        {
-            SearchDialogBox dialog = new SearchDialogBox();
-            #region SearchDialogBox Initialization
-            dialog.Title = this.Title;
-            dialog.Left = this.Left + (this.Width / 2) - (dialog.Width / 2);
-            dialog.Top = this.Top + (this.Height / 2) - (dialog.Height / 2);
-            #endregion
-            if ((bool)dialog.ShowDialog())
-            {
-                Vm.Recipes = new ObservableCollection<Recipe>();
-                foreach (var r in dialog.foundRecipes) {
-                    ObservableCollection<Ingredient> ingredients = new ObservableCollection<Ingredient>();
-                    foreach (var ing in r.Ingredients) {
-                        ingredients.Add(ing);
-                    }
-                    switch (r.RecipeType.Trim()) {
-                        case "Meal Item":
-                            Vm.Recipes.Add(new MealItem { RecipeID = r.RecipeID, Title = r.Title, RecipeType = "Meal Item", Yield = r.Yield, ServingSize = r.ServingSize, Directions = r.Directions, Comment = r.Comment, Ingredients = ingredients });
-                            break;
-                        case "Dessert":
-                            Vm.Recipes.Add(new Dessert { RecipeID = r.RecipeID, Title = r.Title, RecipeType = "Dessert", Yield = r.Yield, ServingSize = r.ServingSize, Directions = r.Directions, Comment = r.Comment, Ingredients = ingredients });
-                            break;
-                    }
-                }
-                if (dialog.foundRecipes.Count != 0)
-                {
-                    SetMessageBox($"Found {dialog.foundRecipes.Count} recipes with search criteria: {dialog.searchInputTextBox.Text}", true);
-                }
-                else if (dialog.searchInputTextBox.Text.Trim() != "")
-                {
-                    SetMessageBox($"No recipes were found with search criteria: {dialog.searchInputTextBox.Text}");
-                }
-
-            }
-            else
-                SetMessageBox("");
-            //RefreshContents();
-        }
-
-        private void btnNew_Click(object sender, RoutedEventArgs e)
-        {
-            NewRecipe newRecipeWindow = new NewRecipe();
-            
-            if ((bool)newRecipeWindow.ShowDialog())
-            {
-
-            }
-
-        }
-
-        private void listBox_Recipes_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            if (listBox_Recipes.SelectedIndex >= 0)
-            {
-                btnEdit.IsEnabled = true;
-                btnDelete.IsEnabled = true;
-            }
-        }
-
-        private void btnDelete_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
+        
     }
 }

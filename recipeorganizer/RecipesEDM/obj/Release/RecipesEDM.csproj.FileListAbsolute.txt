@@ -1,0 +1,13 @@
+C:\Users\sienn\OneDrive\Documents\GitHub\RecipeV\recipeorganizer\RecipesEDM\bin\Release\RecipesEDM.dll.config
+C:\Users\sienn\OneDrive\Documents\GitHub\RecipeV\recipeorganizer\RecipesEDM\bin\Release\RecipesEDM.dll
+C:\Users\sienn\OneDrive\Documents\GitHub\RecipeV\recipeorganizer\RecipesEDM\bin\Release\RecipesEDM.pdb
+C:\Users\sienn\OneDrive\Documents\GitHub\RecipeV\recipeorganizer\RecipesEDM\bin\Release\EntityFramework.dll
+C:\Users\sienn\OneDrive\Documents\GitHub\RecipeV\recipeorganizer\RecipesEDM\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\sienn\OneDrive\Documents\GitHub\RecipeV\recipeorganizer\RecipesEDM\bin\Release\RecipeDataAccess.dll
+C:\Users\sienn\OneDrive\Documents\GitHub\RecipeV\recipeorganizer\RecipesEDM\bin\Release\RecipeDataAccess.pdb
+C:\Users\sienn\OneDrive\Documents\GitHub\RecipeV\recipeorganizer\RecipesEDM\bin\Release\EntityFramework.xml
+C:\Users\sienn\OneDrive\Documents\GitHub\RecipeV\recipeorganizer\RecipesEDM\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\sienn\OneDrive\Documents\GitHub\RecipeV\recipeorganizer\RecipesEDM\obj\Release\RecipesEDM.csprojAssemblyReference.cache
+C:\Users\sienn\OneDrive\Documents\GitHub\RecipeV\recipeorganizer\RecipesEDM\obj\Release\RecipesEDM.csproj.CopyComplete
+C:\Users\sienn\OneDrive\Documents\GitHub\RecipeV\recipeorganizer\RecipesEDM\obj\Release\RecipesEDM.dll
+C:\Users\sienn\OneDrive\Documents\GitHub\RecipeV\recipeorganizer\RecipesEDM\obj\Release\RecipesEDM.pdb

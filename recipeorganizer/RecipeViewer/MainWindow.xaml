@@ -27,7 +27,7 @@
         <Label x:Name="label_RecipesList" Content="Select a Recipe&#xA;" Margin="11,80,623.333,518.666" FontWeight="Bold" FontSize="14" Grid.ColumnSpan="3"/>
         <ListView x:Name="lstVw_Ingredients" ItemsSource="{Binding SelectedItem.Ingredients, ElementName=listBox_Recipes}" Height="162" Margin="66.333,314,337.333,0" VerticalAlignment="Top" Grid.Column="2"/>
         <TextBox x:Name="textBox_Directions" Text="{Binding SelectedItem.Directions, ElementName=listBox_Recipes}" Height="366" Margin="312.333,110,24.333,0" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Grid.Column="2"/>
-        <TextBox x:Name="textBox_Comments" Text="{Binding SelectedItem.Comment, ElementName=listBox_Recipes}" HorizontalAlignment="Left" Height="67" Margin="10,505,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="774" VerticalScrollBarVisibility="Auto" Grid.ColumnSpan="3"/>
+        <TextBox x:Name="textBox_Comments" Text="{Binding SelectedItem.Comment, ElementName=listBox_Recipes}" HorizontalAlignment="Left" Height="67" Margin="10,505,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="461" VerticalScrollBarVisibility="Auto" Grid.ColumnSpan="3"/>
         <TextBox x:Name="textBox_RecipeType" Text="{Binding SelectedItem.RecipeType, ElementName=listBox_Recipes}" Height="32" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Margin="66.333,110,337.333,0" Grid.Column="2"/>
         <Label Content="Directions" Margin="312.333,78,24.333,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Grid.Column="2" Height="29"/>
         <Label Content="Ingredients" Margin="67.333,284,397.333,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" Grid.Column="2" Height="29"/>
@@ -37,15 +37,23 @@
             <Button x:Name="btnSearch" Content="Search" Margin="0,-1,703,0" VerticalAlignment="Top" Height="54" Click="btnSearch_Click" HorizontalAlignment="Right" Width="59"/>
             <Button x:Name="btnRefresh" Content="Refresh" Margin="103,0,605,3" Click="btnRefresh_Click" Height="54"/>
             <Button x:Name="btnDelete" Content="Delete" Margin="416,0,284,3" RenderTransformOrigin="4.835,0.772" Height="54" Click="btnDelete_Click"/>
-            <Button x:Name="btnEdit" Content="Edit" Margin="309,0,392,3" RenderTransformOrigin="1.549,0.586" Height="54"/>
+            <Button x:Name="btnEdit" Content="Edit" Margin="309,0,392,3" RenderTransformOrigin="1.549,0.586" Height="54" Click="btnEdit_Click"/>
             <Button x:Name="btnNew" Content="New" Margin="200,0,505,3" Height="54" Click="btnNew_Click"/>
         </Grid>
-        <Label x:Name="lblNotifications" Content="Notfications" HorizontalAlignment="Left" Margin="13,577,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.184,-0.308" Width="95" FontWeight="Bold" FontSize="14" Grid.ColumnSpan="2" Height="29" Visibility="Hidden"/>
-        <TextBlock x:Name="textBlockNotifications" HorizontalAlignment="Left" Margin="12,603,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="42" Width="770" Grid.ColumnSpan="3"/>
-        <Label Content="Yield" Margin="66.333,144,412.333,0" VerticalAlignment="Top" Grid.Column="2" Height="26"/>
+
+        <TextBox x:Name="textBoxNotifications" HorizontalAlignment="Left" Margin="318.333,527,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="42" Width="301" Grid.Column="2">
+            <TextBox.Foreground>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ActiveCaptionColorKey}}"/>
+            </TextBox.Foreground>
+            <TextBox.BorderBrush>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.WindowColorKey}}"/>
+            </TextBox.BorderBrush>
+        </TextBox>
+        <Label Content="Yield" Margin="66.333,144,412.333,0" VerticalAlignment="Top" Grid.Column="2" Height="26" FontWeight="Bold"/>
         <TextBox x:Name="textBox_Yield" Text="{Binding SelectedItem.Yield, ElementName=listBox_Recipes}" Height="28" Margin="66.333,170,337.333,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="2"/>
-        <Label Content="Serving Size" Margin="66.333,198,470.333,0" VerticalAlignment="Top" Grid.Column="2" Height="26"/>
+        <Label Content="Serving Size" Margin="66.333,198,470.333,0" VerticalAlignment="Top" Grid.Column="2" Height="26" FontWeight="Bold"/>
         <TextBox x:Name="textBox_ServingSize" Text="{Binding SelectedItem.ServingSize, ElementName=listBox_Recipes}" Height="51" Margin="66.333,229,337.333,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="2"/>
+        <TextBox x:Name="textBoxID_hidden" Text="{Binding SelectedItem.RecipeID, ElementName=listBox_Recipes}" Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="15.333,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="39" Visibility="Hidden"/>
     </Grid>
 
 

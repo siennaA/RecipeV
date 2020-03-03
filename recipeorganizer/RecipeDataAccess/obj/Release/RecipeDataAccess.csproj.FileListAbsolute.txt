@@ -1,0 +1,5 @@
+C:\Users\sienn\OneDrive\Documents\GitHub\RecipeV\recipeorganizer\RecipeDataAccess\bin\Release\RecipeDataAccess.dll
+C:\Users\sienn\OneDrive\Documents\GitHub\RecipeV\recipeorganizer\RecipeDataAccess\bin\Release\RecipeDataAccess.pdb
+C:\Users\sienn\OneDrive\Documents\GitHub\RecipeV\recipeorganizer\RecipeDataAccess\obj\Release\RecipeDataAccess.csprojAssemblyReference.cache
+C:\Users\sienn\OneDrive\Documents\GitHub\RecipeV\recipeorganizer\RecipeDataAccess\obj\Release\RecipeDataAccess.dll
+C:\Users\sienn\OneDrive\Documents\GitHub\RecipeV\recipeorganizer\RecipeDataAccess\obj\Release\RecipeDataAccess.pdb
